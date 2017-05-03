@@ -1,0 +1,15 @@
+blockquote{
+    background-color: greenyellow
+}
+.title{
+    background-color: deepskyblue
+}
+.content{
+    background-color: greenyellow
+}
+.zuozhe{
+    text-align: right
+}
+.bg{
+    background-color: lightblue
+}
