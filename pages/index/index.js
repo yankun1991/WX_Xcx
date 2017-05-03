@@ -18,6 +18,12 @@ Page({
       url: '../home/home'
     })
   },
+  ddh:function()
+  {
+    wx.makePhoneCall({
+      phoneNumber: '17095461126' //仅为示例，并非真实的电话号码
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

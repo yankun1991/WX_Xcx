@@ -7,5 +7,7 @@
   <view class="usermotto" bindtap="tz_home">
     <text class="user-motto" wx:if="{{userInfo.gender==1}}">{{motto}}  帅哥</text>
         <text class="user-motto" wx:if="{{userInfo.gender==2}}">{{motto}}  美女</text>
+        <view class="ddh" bindtap="ddh"><text>打电话</text></view>
+        
   </view>
 </view>
